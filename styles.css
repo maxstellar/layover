@@ -10,6 +10,12 @@ html, body {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     scroll-behavior: smooth;
+    font-size: 18px;
+    letter-spacing: 0.02rem;
+}
+
+p {
+    line-height: 1.5;
 }
 
 h1, h2 {
@@ -21,8 +27,8 @@ h1, h2 {
 }
 
 .landing {
-    padding-top: 25rem;
-    height: 67rem;
+    padding-top: 23rem;
+    height: 52rem;
     width: 100vw;
     text-align: center;
     color: white;
@@ -30,10 +36,11 @@ h1, h2 {
 }
 
 .info {
-    text-align: center;
+    text-align: left;
     color: black;
-    margin: none;
-    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
     height: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -55,9 +62,9 @@ h1, h2 {
 }
 
 ul {
-  display: table;
-  margin: 0 auto;
-  text-align: left; 
+    padding: 0;
+    margin: 0;
+    list-style-position: inside; 
 }
 
 .second-title {
@@ -90,4 +97,11 @@ ul {
 
 .hc-logo:hover {
     transform: rotate(10deg) translateY(0.5rem);
+}
+
+.yellow-stroke {
+    color: var(--yellow);
+    -webkit-text-stroke: 0.5rem black;
+    paint-order: stroke fill;
+    letter-spacing: 0.1rem;
 }
