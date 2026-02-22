@@ -12,6 +12,13 @@ html, body {
     scroll-behavior: smooth;
     font-size: 18px;
     letter-spacing: 0.02rem;
+    background-color: var(--blue);
+    background-size: 5rem 5rem;
+    background-image:
+        linear-gradient(to right, #ffffff50 1px, transparent 1px),
+        linear-gradient(to bottom, #ffffff50 1px, transparent 1px);
+    background-attachment: fixed;
+
 }
 
 p {
@@ -23,7 +30,7 @@ h1, h2 {
 }
 
 .start {
-    background-color: var(--blue);
+
 }
 
 .landing {
@@ -35,6 +42,11 @@ h1, h2 {
     margin: none;
 }
 
+.postlanding {
+    background-color: white;
+    width: 100vw;
+}
+
 .info {
     text-align: left;
     color: black;
@@ -43,7 +55,7 @@ h1, h2 {
     width: 40vw;
     height: auto;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
 }
 
 .logo {
@@ -111,4 +123,21 @@ ul {
   0%, 50%, 100% { transform: rotate(0deg); }
   25% { transform: rotate(2deg); }
   75% { transform: rotate(-2deg); }
+}
+
+footer {
+    padding: 1rem 0;
+    text-align: center;
+    width: 100vw;
+    color: white;
+    font-family: "DynaPuff", sans-serif;
+}
+
+footer a {
+    color: var(--yellow);
+    transition: color 0.1s ease-in-out;
+}
+
+footer a:hover {
+    color: var(--yellow-activated);
 }
