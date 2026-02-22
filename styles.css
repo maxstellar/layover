@@ -18,7 +18,29 @@ html, body {
         linear-gradient(to right, #ffffff50 1px, transparent 1px),
         linear-gradient(to bottom, #ffffff50 1px, transparent 1px);
     background-attachment: fixed;
-    animation: sidescroll 5s linear infinite;
+    animation: sidescroll 4s linear infinite;
+}
+
+@keyframes fly {
+  0%, 67% {
+    transform: translate(0rem, 0rem) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(100rem, -17rem) rotate(20deg);
+  }
+
+  26% {
+    transform: translate(100rem, -50rem) rotate(20deg);
+  }
+
+  27% {
+    transform: translate(-100rem, -50rem) rotate(-20deg);
+  }
+
+  28% {
+    transform: translate(-100rem, -22rem) rotate(-20deg);
+  }
 }
 
 @keyframes sidescroll {
@@ -26,7 +48,7 @@ html, body {
         background-position: 0 0;
     }
     100% {
-        background-position: 5rem 0;
+        background-position: -5rem 0;
     }
 }
 
@@ -36,10 +58,6 @@ p {
 
 h1, h2 {
     font-family: "DynaPuff", sans-serif;
-}
-
-.start {
-
 }
 
 .landing {
