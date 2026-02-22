@@ -80,18 +80,19 @@ ul {
 }
 
 .byellow {
+    display: inline-block;
     color: black;
     background-color: var(--yellow);
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
 }
 
 .byellow:hover {
     background-color: var(--yellow-activated);
+    animation: shake 0.25s infinite;
 }
 
 .hc-logo {
     transform: rotate(0deg) translateY(-0.5rem);
-    transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -104,4 +105,10 @@ ul {
     -webkit-text-stroke: 0.5rem black;
     paint-order: stroke fill;
     letter-spacing: 0.1rem;
+}
+
+@keyframes shake {
+  0%, 50%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  75% { transform: rotate(-2deg); }
 }
