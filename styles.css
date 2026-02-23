@@ -172,3 +172,7 @@ footer a {
 footer a:hover {
     color: var(--yellow-activated);
 }
+
+.tagline {
+    padding: 0 1rem;
+}
