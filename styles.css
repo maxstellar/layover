@@ -61,8 +61,9 @@ h1, h2 {
 }
 
 .landing {
-    padding-top: 23rem;
-    height: 52rem;
+    padding-top: 25vh;
+    minimum-height: 40rem;
+    height: 80vh;
     width: 100vw;
     text-align: center;
     color: white;
