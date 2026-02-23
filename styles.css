@@ -92,7 +92,6 @@ h1, h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
-    max-width: 40rem;
     height: auto;
 }
 
@@ -175,4 +174,10 @@ footer a:hover {
 
 .tagline {
     padding: 0 1rem;
+}
+
+@media screen and (max-width: 768px) { /* For screens smaller than 768px */
+  .logo {
+    width: 70vw;
+  }
 }
