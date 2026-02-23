@@ -82,6 +82,7 @@ h1, h2 {
     margin-right: auto;
     width: 40vw;
     min-width: 700px;
+    max-width: 85vw;
     height: auto;
     padding-top: 5rem;
     padding-bottom: 8rem;
