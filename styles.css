@@ -10,7 +10,7 @@ html, body {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     scroll-behavior: smooth;
-    font-size: 1.67vw;
+    font-size: clamp(14px, 1.67vw, 22px);
     letter-spacing: 0.02rem;
     background-color: var(--blue);
     background-size: 5rem 5rem;
