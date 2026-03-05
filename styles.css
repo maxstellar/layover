@@ -126,10 +126,23 @@ ul {
     color: black;
     background-color: var(--yellow);
     transition: background-color 0.1s ease-in-out;
+    margin-right: 1rem;
 }
 
 .byellow:hover {
     background-color: var(--yellow-activated);
+    animation: shake 0.25s infinite;
+}
+
+.bwhite {
+    display: inline-block;
+    color: black;
+    background-color: #ffffff;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.bwhite:hover {
+    background-color: #e0e0e0;
     animation: shake 0.25s infinite;
 }
 
